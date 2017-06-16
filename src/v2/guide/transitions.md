@@ -1183,7 +1183,7 @@ new Vue({
   transform: translateY(30px);
 }
 .list-complete-leave-active {
-  position: absolute;
+  width: 0;
 }
 ```
 
@@ -1233,7 +1233,7 @@ new Vue({
   transform: translateY(30px);
 }
 .list-complete-leave-active {
-  position: absolute;
+  width: 0;
 }
 </style>
 {% endraw %}
@@ -1646,4 +1646,3 @@ new Vue({
 {% endraw %}
 
 Finally, the ultimate way of creating dynamic transitions is through components that accept props to change the nature of the transition(s) to be used. It may sound cheesy, but the only limit really is your imagination.
-
